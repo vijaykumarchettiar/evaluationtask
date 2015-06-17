@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <fragment android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/mapView"
+    android:apiKey="@string/google_maps_key"
+    tools:context="com.newhindu.roofup.Maps"
+    android:name="com.google.android.gms.maps.SupportMapFragment"    
+</LinearLayout-->
+
+<com.google.android.gms.maps.MapView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"                    
+                android:layout_marginRight="10dp"
+android:apiKey="@string/google_maps_key"/>

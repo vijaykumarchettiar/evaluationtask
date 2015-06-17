@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Roof and Floor</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Logout</string>
+<string name="google_maps_key">AIzaSyDUDg7vWZ5eNGZ_H6rrpPV_GnYxzflUEX0</string>
+</resources>
